@@ -1,0 +1,9 @@
+{
+  "name": "devbox",
+  "default_attributes": { },
+  "override_attributes": { },
+  "json_class": "Chef::Role",
+  "description": "Dev box setup",
+  "chef_type": "role",
+  "run_list": [ "recipe[accounts]", "recipe[runchef]", "recipe[packages]" ]
+}
