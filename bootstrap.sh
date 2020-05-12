@@ -3,9 +3,7 @@
 LOGFILE="/tmp/bootstrap.log"
 CHEFCONFIG="/etc/chef/"
 CHEFFILES="/var/chef-solo/"
-
-# TODO fix this
-GITURL="https://github.com/ryanspaulding/chef-cm.git"
+GITURL="https://github.com/ryanspaulding/chef-pi.git"
 
 # Help functions 
 
