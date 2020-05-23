@@ -8,4 +8,7 @@ end
 apt_package "tmux" do
     action :install
 end
+apt_package "ipython" do
+    action :install
+end
 
